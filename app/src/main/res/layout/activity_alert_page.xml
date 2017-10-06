@@ -24,7 +24,7 @@
         app:layout_constraintVertical_bias="0.016" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/emergency1"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.574" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/emergency2"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="0.574" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/emergency3"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginBottom="8dp"
@@ -112,5 +112,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.424" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="7dp" />
 
 </android.support.constraint.ConstraintLayout>
