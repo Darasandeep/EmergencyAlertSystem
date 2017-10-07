@@ -20,4 +20,17 @@ public class AlertPage extends AppCompatActivity {
 
                 startActivityForResult(intent, 1);
             }
+
+    public void toFeedback1(View v){
+        Intent emer1= new Intent(this,Feedback.class);
+        startActivity(emer1);
+    }
+    public void toFeedback2(View v){
+        Intent emer2= new Intent(this,Feedback.class);
+        startActivity(emer2);
+    }
+    public void toFeedback3(View v){
+        Intent emer3 = new Intent(this,Feedback.class);
+        startActivity(emer3);
+    }
 }
