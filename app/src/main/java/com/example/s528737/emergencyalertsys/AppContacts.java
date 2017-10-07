@@ -20,4 +20,11 @@ public void Implicit(View v)
 
               startActivityForResult(intent, 1);
 }
+
+    public void groupManger(View v)
+    {
+        Intent intent= new Intent(this, ContactGroups.class);
+
+        startActivity(intent);
+    }
 }
