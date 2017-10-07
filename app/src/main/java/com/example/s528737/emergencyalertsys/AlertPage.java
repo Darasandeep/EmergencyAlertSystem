@@ -17,9 +17,7 @@ public class AlertPage extends AppCompatActivity {
 
         Intent contacts= new Intent(this,AppContacts.class);
         startActivity(contacts);
-//                Intent intent= new Intent(Intent.ACTION_DEFAULT,  ContactsContract.Contacts.CONTENT_URI);
-//
-//                startActivityForResult(intent, 1);
+
             }
 
     public void toFeedback1(View v){
