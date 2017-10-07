@@ -26,6 +26,7 @@
         <activity android:name=".Register" />
         <activity android:name=".Feedback" />
         <activity android:name=".ForgotPassword" />
+        <activity android:name=".AppContacts"></activity>
     </application>
 
 </manifest>
