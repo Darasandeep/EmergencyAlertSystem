@@ -26,7 +26,8 @@
         <activity android:name=".Register" />
         <activity android:name=".Feedback" />
         <activity android:name=".ForgotPassword" />
-        <activity android:name=".AppContacts"></activity>
+        <activity android:name=".AppContacts" />
+        <activity android:name=".ContactGroups"></activity>
     </application>
 
 </manifest>
