@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".AlertPage" />
         <activity android:name=".Register" />
-        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".ForgotPassword"></activity>
     </application>
 
 </manifest>
