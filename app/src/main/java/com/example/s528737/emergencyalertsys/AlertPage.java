@@ -13,7 +13,7 @@ public class AlertPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alert_page);
     }
-    public void Implicit(View v){
+    public void contactsPage(View v){
 
         Intent contacts= new Intent(this,AppContacts.class);
         startActivity(contacts);
