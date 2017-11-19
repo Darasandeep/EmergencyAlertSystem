@@ -5,6 +5,8 @@
     android:background="@drawable/abc"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
+    android:elevation="4dp"
     tools:context="com.example.s528737.emergencyalertsys.Login">
 
     <TextView

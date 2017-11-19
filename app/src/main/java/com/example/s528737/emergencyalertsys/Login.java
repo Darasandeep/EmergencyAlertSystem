@@ -8,19 +8,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
-        setSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        setSupportActionBar().setDisplayShowHomeEnabled(true);
-        setSupportActionBar().setDisplayUseLogoEnabled(true);
-        setSupportActionBar().setLogo(R.drawable.home);
 
         setContentView(R.layout.activity_login);
     }
@@ -38,6 +32,16 @@ public class Login extends AppCompatActivity {
     public void toForgot(View v){
         Intent intentforgot = new Intent(this, ForgotPassword.class);
         startActivity(intentforgot);
+    }
+
+    public void savePassword(View v){
+
+        Login emg = signInResult.getSignInAccount();
+        Credential credential = new Credential.Builder(emg.getEmail())
+                .setAccountType(IdentityProviders.GOOGLE)
+                .setName(emg.getDisplayName())
+                .build();
+        Toast.makeText(getApplicationContext(),"password saved",Toast.LENGTH_LONG).show();
     }
 
 }
