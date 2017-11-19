@@ -32,4 +32,17 @@ public class AlertPage extends AppCompatActivity {
         Intent emer3 = new Intent(this,Feedback.class);
         startActivity(emer3);
     }
+
+    public void toMainFeedback(View v)
+    {
+        Intent mainFeed = new Intent(this,Feedback.class);
+        startActivity(mainFeed);
+    }
+
+
+    public void menuBar(View v){
+        Intent menubar = new Intent(this,Feedback.class);
+        startActivity(menubar);
+    }
+
 }

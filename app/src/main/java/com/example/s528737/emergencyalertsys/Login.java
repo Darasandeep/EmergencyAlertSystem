@@ -34,14 +34,6 @@ public class Login extends AppCompatActivity {
         startActivity(intentforgot);
     }
 
-    public void savePassword(View v){
 
-        Login emg = signInResult.getSignInAccount();
-        Credential credential = new Credential.Builder(emg.getEmail())
-                .setAccountType(IdentityProviders.GOOGLE)
-                .setName(emg.getDisplayName())
-                .build();
-        Toast.makeText(getApplicationContext(),"password saved",Toast.LENGTH_LONG).show();
-    }
 
 }
